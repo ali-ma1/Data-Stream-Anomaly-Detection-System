@@ -32,3 +32,17 @@ A comprehensive project designed to detect anomalies in continuous data streams 
   - A dynamic line plot showing the data stream.
   - Anomalies highlighted with red markers.
   - Real-time updates for continuous monitoring and analysis.
+
+## Testing and Results
+
+### Real-Time Anomaly Detection in Action
+The system was tested in real time using a data stream containing random noise, seasonal patterns, and occasional anomalies. Under default conditions, the system successfully detected and flagged anomalies as they occurred. Key parameters:
+- **Noise level:** Default (0.5)
+- **Anomaly chance:** Default (0.05)
+
+### Testing Under Challenging Conditions
+To evaluate the system’s robustness, it was further tested with increased noise and anomaly rates, simulating more volatile data conditions. The system maintained its adaptability and accurately flagged anomalies. Key parameters:
+- **Noise level:** Doubled (1.0)
+- **Anomaly chance:** Doubled (0.1)
+
+These tests demonstrated the system’s ability to handle a variety of conditions, ensuring reliability across different environments and conditions.
